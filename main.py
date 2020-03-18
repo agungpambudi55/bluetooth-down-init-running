@@ -1,3 +1,12 @@
+'''
+Created on Mar 2020
+Agung Pambudi <agung.pambudi5595@gmail.com>
+
+Example, I have a problem with bluetooth when the program runs after adapter.start(),
+sometimes the status changes from UP RUNNING to DOWN INIT RUNNING,
+then stuck or freezes in that status.
+'''
+
 import pygatt
 
 def checkDevice():
